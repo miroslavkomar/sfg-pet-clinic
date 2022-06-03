@@ -43,9 +43,8 @@
 
 	<scm>
 		<developerConnection>
-			scm:ssh:git@github.com:miroslavkomar/sfg-pet-clinic.git
+			scm:git:git@github.com:miroslavkomar/sfg-pet-clinic.git
 		</developerConnection>
-	  <tag>HEAD</tag>
   </scm>
 
 </project>
