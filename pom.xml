@@ -42,9 +42,9 @@
 	</build>
 
 	<scm>
-		<developerConnection>
+		<connection>
 			scm:ssh:git@github.com:miroslavkomar/sfg-pet-clinic.git
-		</developerConnection>
+		</connection>
 	  <tag>sfg-pet-clinic-0.0.1</tag>
   </scm>
 
