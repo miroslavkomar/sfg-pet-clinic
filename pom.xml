@@ -20,6 +20,5 @@
 	<description>SFG Pet Clinic Project</description>
 	<properties>
 		<java.version>18</java.version>
-		<spring-boot.repackage.skip>true</spring-boot.repackage.skip>
 	</properties>
 </project>
