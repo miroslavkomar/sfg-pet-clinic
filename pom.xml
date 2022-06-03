@@ -43,7 +43,7 @@
 
 	<scm>
 		<developerConnection>
-			scm:git:https://github.com/miroslavkomar/sfg-pet-clinic.git
+			scm:ssh:git@github.com:miroslavkomar/sfg-pet-clinic.git
 		</developerConnection>
 	  <tag>sfg-pet-clinic-0.0.1</tag>
   </scm>
