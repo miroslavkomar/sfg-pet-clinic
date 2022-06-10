@@ -1,4 +1,4 @@
-package guru.springframework.sfgpetclinic.repositories.services;
+package guru.springframework.sfgpetclinic.services;
 
 import guru.springframework.sfgpetclinic.model.Vet;
 

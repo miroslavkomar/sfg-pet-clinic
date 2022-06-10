@@ -1,10 +1,10 @@
-package guru.springframework.sfgpetclinic.repositories.services.springdatajpa;
+package guru.springframework.sfgpetclinic.services.springdatajpa;
 
 import guru.springframework.sfgpetclinic.model.Owner;
+import guru.springframework.sfgpetclinic.services.OwnerService;
 import guru.springframework.sfgpetclinic.repositories.OwnerRepository;
 import guru.springframework.sfgpetclinic.repositories.PetRepository;
 import guru.springframework.sfgpetclinic.repositories.PetTypeRepository;
-import guru.springframework.sfgpetclinic.repositories.services.OwnerService;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
@@ -40,8 +40,8 @@ public class OwnerSDJpaService implements OwnerService {
     }
 
     @Override
-    public Owner findById(Long id) {
-        return  ownerRepository.findById(id).orElse(null);
+    public Owner findById(Long aLong) {
+        return  ownerRepository.findById(aLong).orElse(null);
     }
 
     @Override
@@ -55,8 +55,8 @@ public class OwnerSDJpaService implements OwnerService {
     }
 
     @Override
-    public void deleteById(Long id) {
-        ownerRepository.deleteById(id);
+    public void deleteById(Long aLong) {
+        ownerRepository.deleteById(aLong);
     }
 
     @Override
