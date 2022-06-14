@@ -69,6 +69,7 @@ public class OwnerController {
     public ModelAndView showOwner(@PathVariable("ownerId") Long ownerId){
         ModelAndView mav = new ModelAndView("owners/ownerDetails");
         mav.addObject(ownerService.findById(ownerId));
+        // comment to push
 
         return mav;
     }
